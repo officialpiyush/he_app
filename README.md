@@ -1,6 +1,9 @@
 # Heat Exchanger Calculator App
  Electron Base app for Calculating Heat Exchangers Capacity (area m2)
 
+ Download or Clone using ```bash git clone https://github.com/acedesyne/he_app.git ```
+ 
+
 ## Installation
 
 Use the package manager [node.js](https://nodejs.org/en/)
