@@ -25,6 +25,8 @@
 
  Step-6 ``` npm install electron-packager -g ``` This will install Electron Packager, which will help to compile the code to make Executable file.
 
+ Before the last step cd to the electron folder created in the Directory
+
  Step-7 ``` electron-packager . <appname> . --asar ``` 
  
  Replace the ```<appname>``` whatever you like for example ``` electron-packager . HE_APP . --asar ``` to protect the source code we use ```---asar``` so that the compiled folder does not show the original source code of our app
