@@ -23,7 +23,7 @@
 
  Step-5 ``` npx cap open electron ``` - ( USe this command to inspect the app in the browser window ) or Skip
 
- Step-6 ``` npm install electron-packager -g ``` This will instage Electorn Packager, which will help to compile the code to make Executable file.
+ Step-6 ``` npm install electron-packager -g ``` This will install Electorn Packager, which will help to compile the code to make Executable file.
 
 
 
