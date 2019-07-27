@@ -1,0 +1,7 @@
+{
+  "appId": "com.acedesyne.hecalc",
+  "appName": "HE CALCULATOR",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
