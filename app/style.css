@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* MAIN BODY WRAPPER FOR APP */
+.wrapper{
+    background: #fefefe;
+    width: 360px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+/* HEADING FOR APP */
+.heading_he{
+    background: purple;
+    height: 60px;
+    margin-top: 0;
+    text-align: center;
+    line-height: 60px;
+    color: whitesmoke;
+    box-shadow: 0 1px 5px rgba(128, 0, 128, 0.247);
+}
+
+/* LABEL PROPERTIES */
+.len label, .od label, .num label, .total_cap label{
+    position: relative;
+    left: 8%;
+    line-height: 40px;
+    top: 20px;
+    font-size: 14px;
+    color: purple;
+}
+
+label{
+    background: white;;
+    padding: 0 5px;
+    z-index: 2;
+    
+}
+
+.total_cap label{
+    position: relative;
+    left: 29%;
+    top: 1px;
+}
+
+
+/* INPUT PROPERTIES */
+input{
+    width: 320px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    border: solid 2px #3030307b;
+    font-weight: 500;
+}
+
+#capacity{
+    height: 50px;
+    font-weight: 700;
+}
+
+input::placeholder{
+    color: hsla(0, 0%, 19%, 0.5);
+    font-weight: 400;
+    
+}
+
+input:focus{
+    border: solid 2px purple;
+    outline: none;
+}
+
+.total_cap{
+    position: relative;
+    top: 30px;
+}
+/* FINAL OUTPUT FIELD */
+.total_cap{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.total_cap label{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+#capacity{
+    border: solid 2px purple;
+}
+
+.divider{
+    width: 10%;
+    height: 1px;
+    background: #3030303b;
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+
+}

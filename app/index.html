@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap" rel="stylesheet">
+    <title>HE CALCULATION APP</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h2 class="heading_he">HE CALCULATION</h2>
+
+        <!-- INPUT FEILD FOR OD (OUTER DIAMETER) OF PIPE -->
+        <div class="od">
+            <label class="la_od_of_pipe" for="capacity">OD of pipe (mm)</label>
+            <input type="text" name="" id="od_of_pipe">
+        </div>
+
+        <!-- INPUT FEILD FOR LENGTH OF PIPE -->
+        <div class="len">
+            <label class="la_length_of_pipe" for="capacity">Length of pipe (mm)</label>
+            <input type="text" name="" id="length_of_pipe">
+        </div>
+
+        <!-- INPUT FEILD FOR NUMBER OF PIPE -->
+        <div class="num">
+            <label class="la_no_of_pipe" for="capacity">No of pipe</label>
+            <input type="text" name="" id="no_of_pipe">
+        </div>
+
+        <div class="divider"></div>
+        
+        <!--FINAL OUTPUT VALUE WILL BE DISPLAYED HERE ( TextBox.Enabled = false) -->
+        <div id="edit_disabled" class="total_cap">
+            <label for="capacity">Total Area (m<sup>2</sup>)</label>
+            <input type="text" name="" id="capacity" value="Disabled Field">
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
