@@ -6,7 +6,7 @@
  Use the package manager [node.js](https://nodejs.org/en/)
 
 ## Dependencies
- Capacitor by Ionic
+ Capacitor by Ionic (Just follow the Installation below :P)
 
 ## Installation
  Step-1 - ``` npm install --save @capacitor/core @capacitor/cli ```
