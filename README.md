@@ -19,6 +19,9 @@
 
  Step-4 - ``` npx cap add electron ``` this will install electron
 
+(Skip this for now) 
+Use ```npx cap copy``` if need to update the app from the source code
+
 
 
 
