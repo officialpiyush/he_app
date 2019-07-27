@@ -18,9 +18,12 @@
  Step-3 - ``` npm init ``` follow the steps
 
  Step-4 - ``` npx cap add electron ``` this will install electron
+ 
+ Use ```npx cap copy``` if need to update the app from the source code - (Skip this for now)
 
-(Skip this for now) 
-Use ```npx cap copy``` if need to update the app from the source code
+ Step-5 ``` npx cap open electron ``` - ( USe this command to inspect the app in the browser window ) or Skip
+
+ Step-6 ``` npm install electron-packager -g ``` This will instage Electorn Packager, which will help to compile the code to make Executable file.
 
 
 
