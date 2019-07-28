@@ -3,3 +3,4 @@
 # And the CLI then renames it
 
 node_modules/
+yarn.lock
