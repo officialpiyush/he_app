@@ -35,5 +35,5 @@ function calulate() {
     }
         let result = (((od * Math.PI) + ((od * Math.PI) * length) + (((od * Math.PI) * length) * no)) / 1000000);
         console.log("TCL: calulate -> result", result)
-        return $("#capacity").attr("value", "~" + result.toFixed());
+        return $("#capacity").attr("value", result.toFixed());
 } // Ha
