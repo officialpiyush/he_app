@@ -15,7 +15,9 @@
 
  Step-2 ``` npm install electron-packager -g ``` This will install Electron Packager, which will help to compile the code to make Executable file.
 
- Step-3 ``` electron-packager . <appname> . --asar ``` 
+ Step-3 ``` electron-packager . <appname> . --asar ```  This will package for your Operating system
+ 
+ For other Operation system use  ```--platform=``` Supports (darwin, linux, mas, win32)  , ```--arch``` Supports(ia32, x64, armv7l, arm64, mips64el)
  
  Replace the ```<appname>``` whatever you like for example ``` electron-packager . myapp . --asar ``` to protect the source code we use ```---asar``` so that the compiled folder does not show the original source code of our app
 
