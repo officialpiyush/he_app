@@ -17,7 +17,7 @@
 
  Step-1 ``` npm install --save-dev electron-rebuild ``` This will rebuild and install node_modules
 
- Step-2 ``` npm install electron-packager -g ``` This will install Electron Packager, which will help to compile the code to make Executable file.
+ Step-2 ``` npm install electron-packager -g ``` This will install Electron Packager globally, which will help to compile the code to make Executable file.
 
  Step-3 ``` electron-packager . <appname> . --asar ```  This will package for your Operating system
  
