@@ -23,7 +23,7 @@
  
  For other Operating system use  ```--platform=``` Supports (darwin, linux, mas, win32)  , ```--arch=``` Supports(ia32, x64, armv7l, arm64, mips64el)
  
- Replace the ```<appname>``` whatever you like for example ``` electron-packager . myapp . --asar ``` to protect the source code we use ```---asar``` so that the compiled folder does not show the original source code of our app
+ Replace the ```<appname>``` whatever you like for example ``` electron-packager . myapp . --asar ``` to protect the source code we use ```--asar``` so that the compiled folder does not show the original source code of our app
 
  After the last Step you will find and electron folder and the complied Folder with name you have given in the last step ```example- myapp-win32-x64```
 
