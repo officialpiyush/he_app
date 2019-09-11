@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/dhruvdalsaniya1995/dhruvdalsaniya1995/_apis/build/status/acedesyne.he_app?branchName=master)](https://dev.azure.com/dhruvdalsaniya1995/dhruvdalsaniya1995/_build/latest?definitionId=2&branchName=master)
+[![Build Status](https://dev.azure.com/acedesyne/acedesyne/_apis/build/status/acedesyne.he_app?branchName=master&jobName=Job)](https://dev.azure.com/acedesyne/acedesyne/_build/latest?definitionId=2&branchName=master)
 
 # Heat Exchanger Calculator App
  Electron Base app for Calculating Heat Exchangers Capacity
